@@ -1,0 +1,17 @@
+﻿{
+    "compilerOptions": {
+      "target": "es5",
+      "jsx": "react-jsx",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "baseUrl": "src",
+    },
+  }
