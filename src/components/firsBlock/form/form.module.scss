@@ -1,0 +1,104 @@
+.conteinerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 80%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    
+    p{  
+        color: white;
+        padding-top: 1%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 40px;
+    }
+    iframe{
+        display: none;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+        align-items: center;
+        label{
+            width: 100%;
+            display: flex;
+            height: 60%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center ;
+            input{
+                text-align: center;
+                width: 80%;
+                flex-basis: 20%;
+                font-size: 20px;
+                color: #4B4646;
+                background-color: #ffffff;
+                margin: 10px 0 0px 0;
+                &:nth-child(1):hover{
+                    border: 1px solid black;
+                }
+                &:nth-child(2):hover{
+                    border: 1px solid black;
+                }
+            }
+            p{
+                font-size: 15px;
+                color: rgb(207, 207, 207);
+            }
+            .hidenOutO{
+                display: none;
+            }
+            .changeObjBtn{
+                display: flex;
+                text-align: center;
+                width: 80%;
+                margin: 1% 0 10px 0;
+                flex-basis: 20%;
+                font-size: 20px;
+                color: #ffffff;
+                background-color: #1f1f1f;
+                // border: 1px solid white;
+                align-items: center;
+                justify-content: center;
+                &:hover{
+                    background: white;
+                    border: 1px solid black;
+                    box-shadow: 0 0 10px #1f1f1f, 0 0 40px;
+                    
+                    a{
+                        color: #1f1f1f;
+                    }
+                }
+                a{
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #D9D9D9;
+                    
+                }
+            }
+            .submitSend{
+                width: 80%;
+                height: 20%;
+                background: #FF4D4D;
+                font-family: 'Oswald', sans-serif;
+                font-size: 30px;
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+                padding-top: 3%;
+                &:hover{
+                    background: #ffffff;
+                    color:#FF4D4D;
+                    border: 1px solid #FF4D4D;
+                    box-shadow: 0 0 10px #FF4D4D, 0 0 40px;
+                }
+            }
+        }
+        
+    }
+}

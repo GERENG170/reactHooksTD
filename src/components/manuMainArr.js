@@ -1,0 +1,60 @@
+let menu = [
+    {
+        id: "AirPods 2",
+        title: "AirPods 2",
+        sum: "65 BYN",
+        img: "2.png",
+        if: 1,
+        description:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!",
+    },
+    {
+        id: "AirPods 3",
+        title: "AirPods 3",
+        sum: "70 BYN",
+        img: "3.jpg",
+        if: 1,
+        description:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!",
+    },
+    {
+        id: "AirPods PRO",
+        title: "AirPods PRO",
+        sum: "109 BYN",
+        img: "pro.jpg",
+        if: 1,
+        description:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!",
+    },
+    {
+        id: "Apple Watch S7",
+        title: "Apple Watch S7",
+        sum: "109 BYN",
+        img: "ws7.png", 
+        if: 1,
+        description:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!",
+    },
+    {
+        id: "Apple Watch S6",
+        title: "Apple Watch S6",
+        sum: "109 BYN",
+        img: "4.jpg", 
+        if: 0,
+        description:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!",
+    },
+    {
+        id: "Apple Watch S9",
+        title: "Apple Watch S9",
+        sum: "109 BYN",
+        img: "8.jpg", 
+        if: 0, 
+        description:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!",
+    },
+    {
+        id: "Apple Watch S29",
+        title: "Apple Watch S29",
+        sum: "109 BYN",
+        img: "8w.jpg", 
+        if: 1, 
+        description:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate ex dolores molestias necessitatibus assumenda consequuntur aspernatur, sequi, dolore obcaecati optio ea quis dicta tempore exercitationem, a error minus voluptas neque nesciunt repellendus. Quisquam distinctio dolor quos, amet iste similique quas quae ea, magnam deleniti asperiores autem ipsa corrupti repellendus!",
+    },
+];
+
+export default menu;

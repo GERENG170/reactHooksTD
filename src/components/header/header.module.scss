@@ -1,0 +1,97 @@
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 80px;
+    flex: 0 0 auto;
+    font-family: 'Oswald', sans-serif;
+    // background: yellow;
+    .headerTxt{
+        padding: 0 0 0 6%;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+        align-items: center;
+        
+        .titleHeader{
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 30px;
+            text-transform: uppercase;
+            flex-basis: 50%;
+            color: black;
+        }
+        .bodyHeader{
+            text-transform: uppercase;
+            color: rgba(0, 0, 0,0.5);
+            flex-basis: 50%;
+            padding-top: 2%;
+        }
+    }
+    .headerBtn{
+        padding: 0 6% 0 0;
+        display: flex;
+        flex-direction: row;
+        // background: aqua;
+        justify-content: space-between;
+        flex-basis: 50%;
+        align-items: center;
+        .btnCatalog{
+            background-color: #FF4D4D;
+            height: 70%;
+            width: 30%;
+            font-size: 20px;
+            color: white;
+            padding-bottom: 1%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background: #ffffff;
+                color:#FF4D4D;
+                border: 1px solid #FF4D4D;
+                box-shadow: 0 0 10px #FF4D4D, 0 0 40px;
+            }
+        }
+        .btnAbout{
+            background: #4B4646;
+            height: 70%;
+            width: 30%;
+            font-size: 20px;
+            color: white;
+            padding-bottom: 1%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background: #ffffff;
+                color:#4B4646;
+                border: 1px solid #4B4646;
+                box-shadow: 0 0 10px #4B4646, 0 0 40px;
+            }
+        }
+        .btnContascts{
+            height: 70%;
+            background: #4B4646;
+            width: 30%;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            padding-bottom: 1%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background: #ffffff;
+                color:#4B4646;
+                border: 1px solid #4B4646;
+                box-shadow: 0 0 10px #4B4646, 0 0 40px;
+            }
+        }
+    }
+}
+@media (max-width:510px){
+    .mainHeader{
+        width: 100vh;
+    }
+}

@@ -1,0 +1,47 @@
+.conteinerFirst{
+    // height: 80vh;
+    // flex-basis: 80%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    .firstBlock{
+        background: url('./apple-airpods-pro-top.jpg')0 30%/cover no-repeat;
+        display: flex;
+        flex-basis: 100%;
+        .wrapFirstBlock{
+            display: flex;
+            flex-basis: 100%;
+            height: 100%;
+            width: 100%;
+            padding: 0% 0 0 0%;
+            // justify-content: center;
+            flex-direction: column;
+            flex-direction: row;
+            .wrapForm{
+                height: 100%;
+                width: 40%;
+                flex-basis:50%;
+                background: rgba(0, 0, 0, 0.5);
+                backdrop-filter: blur(7px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px){
+    .conteinerFirst{
+        flex-direction: row;
+        .firstBlock{
+            width: 100%;
+            .wrapFirstBlock{
+                .wrapForm{
+                    flex-basis:100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.contItemPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 3% 6% 0 6%;
+    .txtItemPage{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        .titleItemPage{
+            display: flex;
+            font-family: 'Oswald', sans-serif;
+            font-size: 40px;
+        }
+        .bodyItemPage{
+            padding: 5% 10% 0 0;
+            display: flex;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+        }
+        .byeBtn{
+            margin: 4% 0 0 0;
+            display: flex;
+            width: 30%;
+            height: 50px;
+            background: #FF4D4D;
+            font-family: 'Oswald', sans-serif;
+            font-size: 30px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            &:hover{
+                background: #ffffff;
+                color:#FF4D4D;
+                border: 1px solid #FF4D4D;
+                box-shadow: 0 0 10px #FF4D4D, 0 0 40px;
+                a{
+                    color:#FF4D4D;
+                }
+            }
+            a{
+                color:white
+            }
+            }
+    }
+    .imgBlockItem{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-basis: 50%;
+        align-items: center;
+        .imgItemPage{
+            width: 70%;
+            height: 55vh;
+        }
+        .sumItemPage{
+            padding-top: 20px;
+            padding-bottom: 5%;
+            font-family: 'Oswald', sans-serif;
+            font-size: 40px;
+        }
+    }
+}
